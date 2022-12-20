@@ -43,5 +43,5 @@ jobs:
      #- name: Artefacto
     - uses: actions/upload-artifact@v3.1.1
       with: 
-          name:Jar compilado
-          path:build/libs        
+        name:Jar compilado
+        path:build/libs        
