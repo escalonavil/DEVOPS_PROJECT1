@@ -39,8 +39,9 @@ jobs:
       with:
         arguments: build
         
-    - name: construir un artefacto con github actions.
-      uses: actions/upload-artifact@v3.1.1
-          with:
-            name Jar compilado
-            path: build/libs        
+     #Artefacto   
+     #- name: Artefacto
+    - uses: actions/upload-artifact@v3.1.1
+      with: 
+          name:Jar compilado
+          path:build/libs        
