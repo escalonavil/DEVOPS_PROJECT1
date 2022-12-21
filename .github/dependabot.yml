@@ -9,3 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+ - package-ecosystem: "gihub-actions" #que nos alerte si un github actions esta desactualizado
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
